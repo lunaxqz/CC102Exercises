@@ -10,7 +10,7 @@ int main()
     if(file.is_open())
     {
         cout << "File opened successfully.\n";
-        cout << "Writing...\n\n";
+        cout << "Writing...\n";
 
         file << "red\n";
         file << "orange\n";
@@ -30,7 +30,7 @@ int main()
     if(file.is_open())
     {
         cout << "File opened successfully.\n";
-        cout << "Reading...\n\n";
+        cout << "Reading...\n";
 
         string line;
         while(getline(file, line))
@@ -54,7 +54,7 @@ int main()
     if(color.is_open() && color_copy.is_open())
     {
         cout << "File opened successfully.\n";
-        cout << "Copying...\n\n";
+        cout << "Copying...\n";
 
         string line;
         while(getline(color, line))
